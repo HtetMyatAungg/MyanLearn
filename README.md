@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# MyanLearn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**You can speak it. Now learn to read and write it.**
 
-## Available Scripts
+An AI-powered Burmese literacy tool for diaspora speakers who grew up speaking Burmese but never master to read or write Myanmar script.
 
-In the project directory, you can run:
+**Live app:** https://myanlearn.pages.dev
 
-### `npm start`
+## The Problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Millions of Myanmar diaspora kids around the world can hold a full conversation in Burmese with their family — but can't read a single word of Myanmar script. Existing tools don't help because they're built for tourists or complete beginners, not for native speakers unlocking literacy.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## The Solution
 
-### `npm test`
+MyanLearn uses an AI tutor that knows you already speak the language. It teaches Myanmar script through the words you already use every day — showing the script, romanised pronunciation, and English meaning side by side. No "hello, my name is" lessons. Just a direct path from spoken fluency to written literacy.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend:** React
+- **Backend:** Cloudflare Workers + Workers AI (Llama 3.1)
+- **Hosting:** Cloudflare Pages
+- **API Repo:** [github.com/HtetMyatAungg/myanlearn-api](https://github.com/HtetMyatAungg/myanlearn-api)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- AI chat tutor that teaches Burmese script conversationally
+- Shows Myanmar script, romanised pronunciation, and English meaning together
+- Adapts to the student's level based on conversation
+- Burmese-first approach — built for speakers, not beginners
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Locally
 
-### `npm run eject`
+```bash
+git clone https://github.com/HtetMyatAungg/myanlearn.git
+cd myanlearn
+npm install
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Note: The AI features require the backend API to be running. See the [API repo](https://github.com/HtetMyatAungg/myanlearn-api) for setup.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Why I Built This
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I'm originally from Myanmar. I can speak Burmese fluently but my reading and writing is weak — I was educated in English abroad. I built MyanLearn because I couldn't find a tool designed for people like me. This is my problem, and now it's my product.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Henry (Htet Myat Aung)** — [GitHub](https://github.com/HtetMyatAungg) · [LinkedIn](https://linkedin.com/in/htet-myat-aung-4a370932a)
