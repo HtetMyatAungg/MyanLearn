@@ -13,8 +13,8 @@ function App() {
         You can speak it. Now learn to read it.
       </p>
       <p style={{ maxWidth: '600px', margin: '20px auto', fontSize: '16px', lineHeight: '1.6' }}>
-        Millions of us grew up speaking Burmese but never master to read it. 
-        MyanLearn uses AI to teach you the script through the words you already speak.
+        Millions of us grew up speaking Burmese but never master to read and write it. 
+        MyanLearn uses AI to teach you the script through the words you already.
       </p>
       <button onClick={() => setStarted(true)} style={{
         padding: '15px 40px',
